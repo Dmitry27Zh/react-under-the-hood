@@ -7,6 +7,7 @@ const Button = (props) => {
 
     return result
   }
+  console.log('Re-evaluation: Button')
 
   return (
     <button className={getClasses()} type={type} onClick={onClick} disabled={disabled}>
