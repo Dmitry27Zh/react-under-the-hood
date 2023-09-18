@@ -1,3 +1,4 @@
+import React from 'react'
 import Paragraph from '../../Paragraph/Paragraph'
 
 const ParagraphOutput = (props) => {
@@ -8,4 +9,4 @@ const ParagraphOutput = (props) => {
   return <Paragraph>{content}</Paragraph>
 }
 
-export default ParagraphOutput
+export default React.memo(ParagraphOutput)
